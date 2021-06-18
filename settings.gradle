@@ -1,0 +1,2 @@
+rootProject.name = "Multipage Sample"
+include ':app'
