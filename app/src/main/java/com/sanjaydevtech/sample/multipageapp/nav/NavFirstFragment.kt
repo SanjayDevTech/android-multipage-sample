@@ -9,6 +9,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.sanjaydevtech.sample.multipageapp.R
 
+/**
+ * First page for Navigation Component demo
+ */
 class NavFirstFragment : Fragment() {
 
     override fun onCreateView(
