@@ -17,5 +17,10 @@
         android:id="@+id/navSecondFragment"
         android:name="com.sanjaydevtech.sample.multipageapp.nav.NavSecondFragment"
         android:label="fragment_nav_second"
-        tools:layout="@layout/fragment_nav_second" />
+        tools:layout="@layout/fragment_nav_second" >
+        <argument
+            android:name="data"
+            app:argType="string"
+            android:defaultValue="no data" />
+    </fragment>
 </navigation>
